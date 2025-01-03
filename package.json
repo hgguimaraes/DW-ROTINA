@@ -1,0 +1,20 @@
+{
+  "name": "dw-update-scheduler",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node scheduler.js",
+    "dev": "nodemon scheduler.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "pg": "^8.11.3",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  }
+}
